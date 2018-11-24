@@ -1,0 +1,19 @@
+.navbar {
+  margin-bottom: 1.5rem;
+
+  //site name
+  h3 {
+    display: inline;
+  }
+
+  //other page links
+  ul {
+    list-style: none;
+    float: right;
+    margin-right: '1rem';
+  }
+
+  li a {
+    display: 'inline-block';
+  }
+}

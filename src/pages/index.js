@@ -1,5 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import '../styles/index.scss'
 
-export default () => <h1>Hello world! <Link to='/about'>About page</Link></h1>
+import Layout from '../components/Layout'
+
+export default () =>(
+  <Layout>
+    <h1>Hello world!</h1>
+  </Layout>
+)
