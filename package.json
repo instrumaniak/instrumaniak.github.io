@@ -4,6 +4,10 @@
   "description": "blog",
   "license": "",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-brands-svg-icons": "^5.5.0",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/react-fontawesome": "^0.1.3",
     "gatsby": "^2.0.55",
     "gatsby-plugin-sass": "^2.0.4",
     "gatsby-plugin-typography": "^2.2.1",
