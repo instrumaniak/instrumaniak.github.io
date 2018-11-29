@@ -1,5 +1,9 @@
+/**
+ *  NavBar
+ */
+
 import React, { Component} from 'react'
-import { Link } from 'gatsby'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
 const ListLink = props => (
   <li style={{
@@ -13,21 +17,35 @@ const ListLink = props => (
 class NavBar extends Component {
   render() {
     return (
-      <header className='navbar' style={{
-        marginBottom: '1.5rem',
-        padding: '1rem'
-      }}>
-        <Link to='/'>
-          <h3 style={{display: 'inline'}}>instrumaniak</h3>
-        </Link>
-        <ul style={{
-          listStyle: 'none',
-          float: 'right'
-        }}>
-          <ListLink to='/music'>Music</ListLink>
-          <ListLink to='/about'>About</ListLink>
-        </ul>
-      </header>
+      <StaticQuery
+        query={graphql`
+          query {
+            site {
+              siteMetadata {
+                title
+              }
+            }
+          }
+        `}
+        render={({site:{siteMetadata:{title}}}) => (
+          <header className='navbar' style={{
+            marginBottom: '1.5rem',
+            padding: '1rem'
+          }}>
+            <Link to='/'>
+              <h3 style={{display: 'inline'}}>{title}</h3>
+            </Link>
+            <ul style={{
+              listStyle: 'none',
+              float: 'right'
+            }}>
+              <ListLink to='/music'>Music</ListLink>
+              <ListLink to='/about'>About</ListLink>
+            </ul>
+          </header>
+
+        )}
+      />
     )
   }
 }
