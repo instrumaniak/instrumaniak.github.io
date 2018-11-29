@@ -1,3 +1,8 @@
+/**
+ *  Only import the font-awesome icons you need
+ *  to reduce bundle size
+ */
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faRss } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -8,9 +13,13 @@ import {
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 
-
-export const faIcons = {
-  enable: () => {
+/**
+ * Utility class for initializing
+ *
+ * FaIcons.init()
+ */
+class FaIcons {
+  static init() {
     library.add(
       faRss,
       faTwitter,
@@ -21,3 +30,5 @@ export const faIcons = {
     )
   }
 }
+
+export default FaIcons
