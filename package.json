@@ -1,8 +1,11 @@
 {
-  "name": "blog",
+  "name": "instrumanak-blog",
   "version": "0.1.0",
-  "description": "blog",
-  "license": "",
+  "description": "instrumanak-blog using gatsby",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
