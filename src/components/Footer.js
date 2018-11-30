@@ -3,7 +3,7 @@
  */
 
 import React, { Component } from 'react'
-import { StaticQuery, Link } from 'gatsby'
+import { StaticQuery, Link, graphql } from 'gatsby'
 import { FontAwesomeIcon as Fa } from '@fortawesome/react-fontawesome'
 
 class Footer extends Component {

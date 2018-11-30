@@ -1,4 +1,7 @@
+# commons
 node_modules
+*.log
 
+# gatsby
 .cache
 public
