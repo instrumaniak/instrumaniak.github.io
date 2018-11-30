@@ -2,7 +2,7 @@
 layout: post
 title: Filter/Search a table
 category: coding
-tags: [javascript, projects]
+tags: javascript projects
 ---
 
 This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table.
