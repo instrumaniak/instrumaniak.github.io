@@ -2,12 +2,18 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 
-export default ({ data:{allMarkdownRemark:{edges:pages}}}) =>(
+export default ({ data:{
+  allMarkdownRemark:{
+    totalCount,
+    edges:pages
+  }
+}}) =>(
   <Layout>
+    <p>Total posts: {totalCount}</p>
     { pages.map(({node:page}, id)=>(
         <div>
           <h3>{page.frontmatter.title}</h3>
-          <p>{page.id}</p>
+          <p>{page.excerpt}</p>
         </div>
       ))
     }
@@ -16,13 +22,14 @@ export default ({ data:{allMarkdownRemark:{edges:pages}}}) =>(
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {layout: {eq: "post"}}}) {
+      totalCount
       edges {
         node {
-          id
           frontmatter {
             title
           }
+          excerpt(pruneLength: 300)
         }
       }
     }
