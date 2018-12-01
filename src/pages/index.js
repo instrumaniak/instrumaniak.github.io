@@ -5,15 +5,16 @@ import { graphql } from 'gatsby'
 export default ({ data:{
   allMarkdownRemark:{
     totalCount,
-    edges:pages
+    edges:posts
   }
 }}) =>(
   <Layout>
     <p>Total posts: {totalCount}</p>
-    { pages.map(({node:page}, id)=>(
-        <div>
-          <h3>{page.frontmatter.title}</h3>
-          <p>{page.excerpt}</p>
+    { posts.map(({node:post}, id)=>(
+        <div key={id}>
+          <h3>{post.frontmatter.title}</h3>
+          <p>{post.excerpt}</p>
+          <p>Category: {post.frontmatter.category} Tags: {post.frontmatter.tags.split(' ').join(', ')}</p>
         </div>
       ))
     }
@@ -28,6 +29,8 @@ export const query = graphql`
         node {
           frontmatter {
             title
+            category
+            tags
           }
           excerpt(pruneLength: 300)
         }
