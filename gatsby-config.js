@@ -26,6 +26,7 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography.js'
       }
     },
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-catch-links'
   ]
 }

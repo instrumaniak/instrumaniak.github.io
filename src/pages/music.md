@@ -12,7 +12,7 @@ Single track, released September 30, 2017.
 
 Genre: *instrumental, progressive rock, acoustic*
 
-Music, sound works and cover art by Raziur Rahman. This track is made using Reaper and free VST plugins and sounds. You can read about the overall making process from [here]({% post_url 2017-10-11-making-of-flow %}).
+Music, sound works and cover art by Raziur Rahman. This track is made using Reaper and free VST plugins and sounds. You can read about the overall making process from [here](/blog/making-of-flow).
 
 ![flow cover](/images/coverart/flow-cover-800px.png)
 
@@ -28,7 +28,7 @@ Single track, released June 23, 2015.
 
 Genre: *instrumental, progressive, electronic*
 
-Music programming, sound works and cover art by Raziur Rahman. This track is made entirely on Linux using only free softwares. You can read about the overall making process from [here]({% post_url 2015-6-30-making-of-carbon %}).
+Music programming, sound works and cover art by Raziur Rahman. This track is made entirely on Linux using only free softwares. You can read about the overall making process from [here](/blog/making-of-carbon).
 
 ![carbon cover](/images/coverart/carbon-cover-800px.jpg)
 
@@ -43,7 +43,7 @@ Music programming, sound works and cover art by Raziur Rahman. This track is mad
 
 Genre: *instrumental, progressive, electronic*
 
-Music composed, produced and Cover art by Raziur Rahman. You can read about the production process from [here]({% post_url 2014-11-30-making-of-instrumania %}).
+Music composed, produced and Cover art by Raziur Rahman. You can read about the production process from [here](/blog/making-of-instrumania).
 
 ![instrumania cover](/images/coverart/instrumania-800px.jpg)
 
