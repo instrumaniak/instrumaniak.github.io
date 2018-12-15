@@ -1,19 +1,44 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const { getPostData } = require('./src/utils')
 
+// Insert field data on markdown nodes
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
   if(node.internal.type === 'MarkdownRemark') {
+    const { layout } = node.frontmatter
     const slug = createFilePath({ node, getNode, basePath: 'pages'})
-    createNodeField({
-      node,
-      name: 'slug',
-      value: slug
-    })
+
+    // Insert only slug field for pages
+    if(layout == "page") {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: slug
+      })
+    }
+
+    if(layout == "post") {
+      const { postSlug, postDate } = getPostData(slug)
+
+      // Insert slug & date into fields for blog posts
+      createNodeField({
+        node,
+        name: 'slug',
+        value: postSlug
+      })
+      createNodeField({
+        node,
+        name: 'date',
+        value: postDate
+      })
+    }
   }
 }
 
+
+// Create pages from markdown files for both pages & blog posts
 exports.createPages = ({ graphql, actions}) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
@@ -34,8 +59,9 @@ exports.createPages = ({ graphql, actions}) => {
       }
     `).then(result => {
         result.data.allMarkdownRemark.edges.forEach(({ node}) => {
+          // Use different template for pages & posts
 
-          //Pages: /page
+          // Pages: /:page
           if(node.frontmatter.layout == 'page') {
             createPage({
               path: node.fields.slug,
@@ -46,15 +72,10 @@ exports.createPages = ({ graphql, actions}) => {
             })
           }
 
-          //Blog posts: /blog/post
+          // Blog posts: /blog/:post
           if(node.frontmatter.layout == 'post') {
-            //extract date and post slug from file slug
-            let full_slug = node.fields.slug.split('-')
-            let date = full_slug.slice(0, 3).join('-')
-            let post_slug = full_slug.slice(3).join('-')
-
             createPage({
-              path: `/blog/${post_slug}`,
+              path: node.fields.slug,
               component: path.resolve('./src/templates/blog-post.js'),
               context: {
                 slug: node.fields.slug

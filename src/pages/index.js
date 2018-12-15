@@ -1,6 +1,11 @@
+/**
+ * Page: Home
+ * Displays lists of recent blog posts
+ */
+
 import React from 'react'
 import Layout from '../components/Layout'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 export default ({ data:{
   allMarkdownRemark:{
@@ -10,20 +15,28 @@ export default ({ data:{
 }}) =>(
   <Layout>
     <p>Total posts: {totalCount}</p>
-    { posts.map(({node:post}, id)=>(
-        <div key={id}>
-          <h3>{post.frontmatter.title}</h3>
-          <p>{post.excerpt}</p>
-          <p>Category: {post.frontmatter.category} Tags: {post.frontmatter.tags.split(' ').join(', ')}</p>
-        </div>
-      ))
+    { posts.map(({node:post}, id)=> {
+        const { title, category, tags } = post.frontmatter
+        const { slug, date } = post.fields
+
+        return (
+          <div key={id}>
+            <h3><Link to={slug}>{title}</Link></h3>
+            <p><small>{ date } &bull; {category} &bull; Tags: {tags.split(' ').join(', ')}</small></p>
+            <p>{post.excerpt}</p>
+          </div>
+        )
+      })
     }
   </Layout>
 )
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: {frontmatter: {layout: {eq: "post"}}}) {
+    allMarkdownRemark(
+      filter: { frontmatter: {layout: {eq: "post"}} }
+      sort: { order: DESC, fields: [fields___date] }
+    ) {
       totalCount
       edges {
         node {
@@ -31,6 +44,10 @@ export const query = graphql`
             title
             category
             tags
+          }
+          fields {
+            slug
+            date
           }
           excerpt(pruneLength: 300)
         }
