@@ -40,6 +40,7 @@ class NavBar extends Component {
               float: 'right'
             }}>
               <ListLink to='/music'>Music</ListLink>
+              <ListLink to='/arts'>Arts</ListLink>
               <ListLink to='/about'>About</ListLink>
             </ul>
           </header>
