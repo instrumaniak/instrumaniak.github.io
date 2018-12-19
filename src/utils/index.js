@@ -27,6 +27,7 @@ exports.getPostData = slug => {
 
    return {
     postSlug: `/blog/${_slug}`,
-    postDate: getFormattedDate(date)
+    postDate: getFormattedDate(date), // for displaying date in posts
+    rawDate: date // for sorting posts
    }
 }

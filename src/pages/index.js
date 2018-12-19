@@ -35,7 +35,7 @@ export const query = graphql`
   query {
     allMarkdownRemark(
       filter: { frontmatter: {layout: {eq: "post"}} }
-      sort: { order: DESC, fields: [fields___date] }
+      sort: { order: DESC, fields: [fields___rawDate] }
     ) {
       totalCount
       edges {

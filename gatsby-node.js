@@ -20,7 +20,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     }
 
     if(layout == "post") {
-      const { postSlug, postDate } = getPostData(slug)
+      const { postSlug, postDate, rawDate } = getPostData(slug)
 
       // Insert slug & date into fields for blog posts
       createNodeField({
@@ -32,6 +32,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         node,
         name: 'date',
         value: postDate
+      })
+      createNodeField({
+        node,
+        name: 'rawDate',
+        value: rawDate
       })
     }
   }
