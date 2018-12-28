@@ -1,0 +1,879 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/app.2840828f9d14a8c59128.css">.navbar{border-bottom:1px solid #eee}.footer{padding:40px 0;text-align:center;color:#999;border-top:1px solid #eee}.social a{margin-right:1rem;color:#999}.social a:hover{color:#666}</style><meta name="generator" content="Gatsby 2.0.59"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45 'Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:black;font-family:'Open Sans',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;color:inherit;font-family:'Domine',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;font-size:0.85rem;line-height:1.45rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}blockquote{margin-left:0;margin-right:1.45rem;margin-top:0;padding-bottom:0;padding-left:1.17812rem;padding-right:0;padding-top:0;margin-bottom:1.16rem;font-size:1.1487rem;line-height:1.45rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.27187rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.16rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.16rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.16rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.45rem;margin-bottom:calc(1.16rem / 2);margin-top:calc(1.16rem / 2);}li > ul{margin-left:1.45rem;margin-bottom:calc(1.16rem / 2);margin-top:calc(1.16rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.16rem / 2);}code{font-size:0.85rem;line-height:1.45rem;}kbd{font-size:0.85rem;line-height:1.45rem;}samp{font-size:0.85rem;line-height:1.45rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h1,h2,h3,h4,h5,h6{line-height:1.1;}a{color:cornflowerblue;text-decoration:none;}a:hover,a:active{color:black;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.45rem;color:black;font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){html{font-size:100%;}blockquote{margin-left:-1.0875rem;margin-right:0;padding-left:0.81562rem;}}a:hover{color:darkturquoise;}</style><link href="//fonts.googleapis.com/css?family=Domine:700|Open+Sans:400,400i,700,700i" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-be991ea4e67d6e9d6b2b.js"/><link as="script" rel="preload" href="/app-dd9b10ac2d4be71e701e.js"/><link as="script" rel="preload" href="/webpack-runtime-d4276b283d376ae31d3d.js"/><link rel="preload" href="/static/d/770/path---blog-javascript-workout-8-a-4-b90-yDTpJk4WAZeF7qdJrUleM5P6bTg.json" as="fetch" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><header class="navbar" style="margin-bottom:1.5rem;padding:1rem"><a href="/"><h3 style="display:inline">instrumaniak</h3></a><ul style="list-style:none;float:right"><li style="display:inline-block;margin-right:1rem"><a href="/music">Music</a></li><li style="display:inline-block;margin-right:1rem"><a href="/arts">Arts</a></li><li style="display:inline-block;margin-right:1rem"><a href="/about">About</a></li></ul></header><div style="margin-left:auto;margin-right:auto;max-width:650px;padding:0 1rem"><h1>JavaScript workout</h1><p>30 May, 2017</p><div><p>Last year I spent two months (August-September, 2016) solving many programming problems at freecodecamp using JavaScript. Recently, when I wanted to review those, I thought it would be better if I have all the exercises with my solutions and notes about those if there is any, in one page. So, in this post I will gather all those freecodecamp code snippets and others for easier review!</p>
+<!--more-->
+<h3>Reverse a String</h3>
+<pre><code class="language-js">function reverseString(str) {
+  var a=str.split(''); //split into arrary of character
+  a.reverse();
+  return a.join('');
+}
+
+reverseString("hello");
+</code></pre>
+<h3>Factorialize a Number</h3>
+<pre><code class="language-js">function factorialize(num) {
+  var f=1;
+  for(var i=1;i&#x3C;=num;i++){
+    f *=i;
+  }
+  return f;
+}
+
+factorialize(5);
+</code></pre>
+<h3>Check for Palindromes</h3>
+<pre><code class="language-js">function palindrome(str) {
+  // Good luck!
+  var mset = str.toLowerCase().match(/\w/g); // get a set of A/N characters
+  var set =mset.filter(function(v){return v !=="_";}); //filter out _
+  var rev =  JSON.parse(JSON.stringify(set)); //deep copy
+  rev.reverse();
+  
+  if(set.join('')===rev.join('')){ return true; }
+  else {return false;}
+}
+
+
+
+palindrome("eye");
+</code></pre>
+<h3>Find the Longest Word in a String</h3>
+<p>Return the length of the longest word in the provided sentence. The response should be a number.</p>
+<pre><code class="language-js">function findLongestWord(str) {
+  var lset =[];
+  var s= str.split(' '); //get the words into array
+  
+  
+  for(var i =0; i&#x3C;s.length; i++){
+    lset.push(s[i].length);
+  }
+  
+  lset.sort(function(a,b){return b-a;}); //sort max to min
+  
+  
+  return lset[0];
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
+</code></pre>
+<h3>Title Case a Sentence</h3>
+<pre><code class="language-js">// split the sentence to get an array of words
+// iterate over each words and apply capitalization
+// join the words back to sentence
+
+function titleWords(str){ 
+  var cap = str.charAt(0); //get the first letter
+  var rest = str.slice(1); //get rest of the word
+  
+  cap = cap.toUpperCase(); 
+  rest = rest.toLowerCase();
+  
+  return cap.concat(rest); // return title cased word
+}
+
+
+
+function titleCase(str) {
+  var words = str.split(' '); //get words
+  
+  for(var i=0,l=words.length;i&#x3C;l;i++){  // Iterate over the words
+     words[i]=titleWords(words[i]); // alter the arry with title cased words
+  
+  }
+  
+  var titled = words.join(' '); //put the words back into a sentence
+  return titled;
+}
+
+
+//Test code
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+</code></pre>
+<h3>Return Largest Numbers in Arrays</h3>
+<p>Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.</p>
+<pre><code class="language-js">//1. iterate over main array
+//2. for each main arry element find the max number of the innerarry
+//   by sort the inner arry using compare funtion
+//3. get the max number and push it to a new array//return the new array.
+
+function getMax(arr){
+  arr.sort(function(a,b){return b-a;});
+  return arr[0];
+}
+
+function largestOfFour(arr) {
+  var nArr = [];
+  
+  for(var i=0,l=arr.length;i&#x3C;l;i++){
+    nArr.push(getMax(arr[i]));  
+  }
+  
+  return nArr;
+}
+
+console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+console.log(largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+console.log(largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]));
+</code></pre>
+<h3>Confirm the Ending</h3>
+<p>Check if a string (first argument, str) ends with the given target string (second argument, target).</p>
+<pre><code class="language-js">//use substr
+//cut out the string of the length of the match from given string
+//check if cut out and match string matches
+
+function confirmEnding(str, target) {
+  var cutOut = str.substr(str.length - target.length);
+  
+  console.log(cutOut);
+  
+  if(cutOut == target){return true;}
+  else { return false;}
+  
+}
+</code></pre>
+<h3>Repeat a string repeat a string</h3>
+<p>Repeat a given string (first argument) num times (second argument). Return an empty string if num is not a positive number.</p>
+<pre><code class="language-js">//if given number is positive
+//for given number of times 
+//push the given string to an array
+//return the stringified array
+
+function repeatStringNumTimes(str, num) {
+  var arr = [];
+  
+  if(num>0){
+    for(var i=0;i&#x3C;num;i++){
+      arr.push(str);
+    }
+    
+    return arr.join('');
+  } 
+  else{return "";}
+}
+
+repeatStringNumTimes("abc", 3);
+</code></pre>
+<h3>Truncate a string</h3>
+<p>Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a ... ending.</p>
+<p>Note that inserting the three dots to the end will add to the string length.</p>
+<p>However, if the given maximum string length num is less than or equal to 3, then the addition of the three dots does not add to the string length in determining the truncated string.</p>
+<pre><code class="language-js">//Truncate a string according to the given length num
+
+//If the num is equal or greater than the string length then return the string as it is.
+//If the num greater than 3 then return string with length of (num-3) and append three dots (...)
+//If the num is less than or equal to 3 , return string with length of num and append (...)
+
+function truncateString(str, num) {
+  if(num >= str.length ){return str;}
+  else if (num > 3){
+    return str.substr(0, num - 3).concat("...");
+  }
+  else {
+    return str.substr(0, num).concat("...");
+  }
+  return str;
+}
+
+
+truncateString("A-tisket a-tasket A green and yellow basket", 11);
+</code></pre>
+<h3>Chunky Monkey</h3>
+<p>Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.</p>
+<pre><code class="language-js">// Split an array into an array of smaller arrays
+// keep moving over the given array upto the amount of size
+
+function chunkArrayInGroups(arr, size) {
+  var out = [];
+    
+  for(var i=0,l=arr.length;i&#x3C;l;i += size){
+      
+      var bit = [];
+      for(var j=0;j&#x3C;size;j++){
+        var t = arr[i+j];
+        if (t !== undefined) { bit.push(t); }
+        else {break;}
+      }
+      out.push(bit);    
+  }
+  return out;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
+</code></pre>
+<h3>Slasher Flick</h3>
+<p>Return the remaining elements of an array after chopping off n elements from the head. The head means the beginning of the array, or the zeroth index.</p>
+<pre><code class="language-js">function slasher(arr, howMany) {
+ 
+  if(howMany === 0) {return arr;}
+  else if(arr.length&#x3C;=howMany){return [];}
+  else{
+    return arr.slice(howMany);
+  }
+  
+}
+
+slasher([1, 2, 3], 2);
+</code></pre>
+<h3>Mutations</h3>
+<p>Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.</p>
+<p>For example, ["hello", "Hello"], should return true because all of the letters in the second string are present in the first, ignoring case.</p>
+<p>The arguments ["hello", "hey"] should return false because the string "hello" does not contain a "y".</p>
+<p>Lastly, ["Alien", "line"], should return true because all of the letters in "line" are present in "Alien".</p>
+<pre><code class="language-js">function mutation(arr) {
+  var src = arr[0].toLowerCase();
+  var match = arr[1].toLowerCase();
+  var state = true;
+  
+  for(var i=0,l=match.length;i&#x3C;l;i++){
+    if(src.indexOf(match[i]) === -1) {state = false;}
+  }
+  
+  return state;
+}
+
+mutation(["hello", "hey"]);
+</code></pre>
+<h3>Falsy Bouncer</h3>
+<p>Remove all falsy values from an array. Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.</p>
+<pre><code class="language-js">function bouncer(arr) {
+  
+  var a = arr.filter(function(val){
+   
+    if (val === "" ||
+        val === false ||
+        val === null ||
+        val === 0 ||
+        val === undefined ||
+        val.toString() === "NaN"
+       ){return false;}
+    else {return true;}
+    
+  });
+  return a;
+}
+
+bouncer([7, "ate", "", false, 9]);
+</code></pre>
+<h3>Seek and Destroy</h3>
+<p>You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.</p>
+<pre><code class="language-js">function destroyer() {
+  var arr = arguments[0];
+  var items = Array.from(arguments);
+  
+  function c(val){
+      if(val===items[i]){return false;}
+      else {return true;}
+    }
+  
+  for(var i =1,l=items.length;i&#x3C;l;i++){
+    arr = arr.filter(c);
+  }
+  
+  
+  return arr;
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+</code></pre>
+<h3>Where do I belong</h3>
+<p>Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.</p>
+<p>For example, getIndexToIns([1,2,3,4], 1.5) should return 1 because it is greater than 1 (index 0), but less than 2 (index 1).</p>
+<p>Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has been sorted it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (index 1).</p>
+<pre><code class="language-js">function getIndexToIns(arr, num) {
+  arr.sort(function(a,b){return a-b;}); //sort incremetally
+  var index = 0;
+  for(var i=0,l=arr.length;i&#x3C;l;i++){
+    if(num>arr[i] ){
+      index = i+1;
+      
+    }
+    else if (num==arr[i]){index = i;}
+  }
+  
+  return index;
+}
+
+getIndexToIns([40, 60], 50);
+</code></pre>
+<h3>Caesars Cipher</h3>
+<p>One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.</p>
+<p>A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔  'O' and so on.</p>
+<p>Write a function which takes a ROT13 encoded string as input and returns a decoded string.</p>
+<p>All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.</p>
+<pre><code class="language-js">//Remember strings are immutable! :-)
+
+function rot13(str) { // LBH QVQ VG!
+  var d = "";
+  for(var i=0,l=str.length;i&#x3C;l;i++){
+    var code= str.charCodeAt(i);
+        
+    if(code>=65 &#x26;&#x26; code&#x3C;=77){ //A to M
+      d = d.concat(String.fromCharCode(code+13));
+      
+    }
+    else if(code>=78 &#x26;&#x26; code&#x3C;=90){ //N to Z
+      d = d.concat(String.fromCharCode(code-13));
+    }
+    else {d = d.concat(str.charAt(i));}
+  }
+  
+  return d;
+}
+
+// Change the inputs below to test
+rot13("SERR PBQR PNZC");
+</code></pre>
+<h3>Sum All Numbers in a Range</h3>
+<p>We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them. The lowest number will not always come first.</p>
+<pre><code class="language-js">function sumAll(arr) {
+  var sum = 0;
+  var min = Math.min(arr[0],arr[1]);
+  var max = Math.max(arr[0],arr[1]);
+  
+  for(var i = min;i&#x3C;=max;i++){
+    sum += i;
+  }
+    
+  return sum;
+}
+
+sumAll([1, 4]);
+</code></pre>
+<h3>Diff Two Arrays</h3>
+<p>Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.</p>
+<pre><code class="language-js">// iterate over array 1
+// for each element, iterate over array2
+// if found delete from BOTH array
+// concatenate both array and remove undefined holes
+
+function diffArray(arr1, arr2) {
+  var out = [];
+  
+  for(var i=0,l=arr1.length;i&#x3C;l;i++){ 
+    
+    for(var j=0,k=arr2.length;j&#x3C;k;j++){
+      
+      if(arr1[i] == arr2[j]){
+        delete arr1[i];
+        delete arr2[j];
+      }
+    }   
+  }
+  
+  out = arr1.concat(arr2);
+  out = out.filter(function(val){
+    return val !== undefined;
+  });
+  
+  return out;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+</code></pre>
+<h3>Roman Numeral Converter</h3>
+<p>Convert the given number into a roman numeral. All <a href="http://www.mathsisfun.com/roman-numerals.html">roman numerals</a> answers should be provided in upper-case.</p>
+<pre><code class="language-js">// create a lookup table
+// convert the number to an array of character (toString,split)
+// reverse the array and iterate over the array
+// for each element, look it up to the table and
+// insert it to a string from front (unshift).
+// check for zero content and index 3 for range 1-3
+// Limitation: only works in the range of 0-3999
+
+
+function convertToRoman(num) {
+  var lookup = {
+    1:"I",2:"II",3:"III",4:"IV",5:"V",6:"VI",7:"VII",8:"VIII",9:"IX",
+    10:"X",20:"XX",30:"XXX",40:"XL",50:"L",60:"LX",70:"LXX",80:"LXXX",90:"XC",
+    100:"C",200:"CC",300:"CCC",400:"CD",500:"D",600:"DC",700:"DCC",800:"DCCC",900:"CM",
+    1000:"M",2000:"MM",3000:"MMM"
+    };
+
+  var arr = num.toString().split('').reverse();
+  var roman = [];
+    
+  if(arr.length>4){console.log("Only works in the range: 0-3999"); return -1;}
+  else {
+      for(var i =0;i&#x3C;=3;i++){
+        if(arr[i] !== 0 &#x26;&#x26; lookup[arr[i]] !== undefined){
+
+        roman.unshift(lookup[arr[i]*Math.pow(10,i)]);
+        }
+      }
+  }
+  
+ return roman.join('');
+}
+
+convertToRoman(36);
+</code></pre>
+<h3>Wherefore art thou</h3>
+<p>Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument). Each property and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.</p>
+<p>For example, if the first argument is [{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], and the second argument is { last: "Capulet" }, then you must return the third object from the array (the first argument), because it contains the property and its value, that was passed on as the second argument.</p>
+<pre><code class="language-js">function whatIsInAName(collection, source) {
+  // What's in a name?
+  var arr = [];
+  // Only change code below this line
+  
+  for(var i=0,l=collection.length;i&#x3C;l;i++){
+    var state = true;
+    Object.keys(source).forEach(function (a){
+      if(collection[i].hasOwnProperty(a)){
+        if(collection[i][a] !== source[a]){
+          state = false;
+        }
+      }
+      else {
+      state = false;
+    }
+    });
+    if(state){arr.push(collection[i]);}
+  }
+  
+  // Only change code above this line
+  return arr;
+}
+
+
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+</code></pre>
+<h3>Search and Replace</h3>
+<p>Perform a search and replace on the sentence using the arguments provided and return the new sentence.  First argument is the sentence to perform the search and replace on. Second argument is the word that you will be replacing (before). Third argument is what you will be replacing the second argument with (after). NOTE: Preserve the case of the original word when you are replacing it. For example if you mean to replace the word "Book" with the word "dog", it should be replaced as "Dog"</p>
+<pre><code class="language-js">function myReplace(str, before, after) {
+  if(before.charAt(0).search(/[a-z]/)){ //If capital letter
+    after = after.charAt(0).toUpperCase()+after.slice(1);
+  }
+  return str.replace(before,after);
+}
+
+myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+</code></pre>
+<h3>Pig Latin</h3>
+<p>Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay". If a word begins with a vowel you just add "way" to the end. Input strings are guaranteed to be English words in all lowercase.</p>
+<pre><code class="language-js">function translatePigLatin(str) {
+  var con = [];
+  
+  if(str.charAt(0).search(/[aeiou]/)){
+  for(var i=0,l=str.length;i&#x3C;l;i++){
+    if(str.charAt(i).search(/[aeiou]/)){
+      con.push(str.charAt(i));
+    } else {break;}
+    
+  }
+   return str.slice(i)+ con.join('') +"ay";
+  }
+  
+  else{
+  return str+"way"; 
+  }
+}
+
+translatePigLatin("consonant");
+</code></pre>
+<h3>DNA Pairing</h3>
+<p>The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array. Base pairs are a pair of AT and CG. Match the missing element to the provided character. Return the provided character as the first element in each array.</p>
+<p>For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]</p>
+<p>The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.</p>
+<pre><code class="language-js">function pairElement(str) {
+  var lookup = {
+    G:["G","C"],
+    C:["C","G"],
+    A:["A","T"],
+    T:["T","A"]},
+    
+    list =[];
+  
+  str.split('').forEach( a=>list.push(lookup[a]));
+  
+  return list;
+}
+
+pairElement("GCG");
+</code></pre>
+<h3>Missing letters</h3>
+<p>Find the missing letter in the passed letter range and return it. If all letters are present in the range, return undefined.</p>
+<pre><code class="language-js">function fearNotLetter(str) {
+  var out;
+  
+  for(var i=str.charCodeAt(0),j=0,l=i+str.length;i&#x3C;l;i++,j++){
+    if(str.charAt(j)!==String.fromCharCode(i)){
+      out = String.fromCharCode(i);
+      break;
+    }
+  }
+  return out;
+}
+
+fearNotLetter("abce");
+</code></pre>
+<h3>Boo who</h3>
+<p>Check if a value is classified as a boolean primitive. Return true or false. Boolean primitives are true and false.</p>
+<pre><code class="language-js">function booWho(bool) {
+  if(typeof bool == "boolean") return true;
+  else return false;
+}
+
+booWho(null);
+</code></pre>
+<h3>Sorted Union</h3>
+<p>Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays. In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array. The unique numbers should be sorted by their original order, but the final array should not be sorted in numerical order.</p>
+<pre><code class="language-js">Array.prototype.checkValue = function(val){
+  for(var i=0,l=this.length;i&#x3C;l;i++){
+    if(this[i] == val){return true;}
+  }
+  return false;
+};
+
+function uniteUnique(arr) {
+  
+  for(var i=1,l=arguments.length;i&#x3C;l;i++){
+    for(var j=0,k=arguments[i].length;j&#x3C;k;j++){
+      if(!arr.checkValue(arguments[i][j])) arr.push(arguments[i][j]);
+    }
+  }
+  return arr;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+</code></pre>
+<h3>Convert HTML Entities</h3>
+<p>Convert the characters &#x26;, &#x3C;, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.</p>
+<pre><code class="language-js">function convertHTML(str) {
+  var lookup = {
+    "&#x26;":"&#x26;amp;",
+    "&#x3C;":"&#x26;lt;",
+    ">":"&#x26;gt;",
+    "\"":"&#x26;quot;",
+    "\'":"&#x26;apos;"
+  };
+  
+  for(var key in lookup){
+    str = str.replace(new RegExp(key,'g'),lookup[key]);
+  }
+  return str;
+}
+
+convertHTML("Dolce &#x26; Gabbana");
+</code></pre>
+<h3>Spinal Tap Case</h3>
+<p>Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.</p>
+<pre><code class="language-js">function spinalCase(str) {
+  var newS =[];
+  newS.push(str.charAt(0));
+  
+  for(i=1,l=str.length;i&#x3C;l;i++){
+    if(str.charAt(i).search(/[A-Z]/)===0 &#x26;&#x26;
+       str.charAt(i-1) !== ' ' &#x26;&#x26;
+       str.charAt(i-1) !== '_'
+      ){
+      newS.push(" ");
+    }
+    newS.push(str.charAt(i));
+  }
+  
+  str = newS.join('').replace(/[ _]/g, '-').toLowerCase();
+  return str;
+  
+}
+
+
+spinalCase('This Is Spinal Tap');
+</code></pre>
+<h3>Sum All Odd Fibonacci Numbers</h3>
+<p>Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num. The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.</p>
+<p>For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than 10 are 1, 1, 3, and 5.</p>
+<pre><code class="language-js">function sumFibs(num) {
+  var a=1,b=1,sum=2;
+  var next =0;
+  
+  for(;;a=b,b=next){
+    next = a+b;
+    if(next&#x3C;=num){
+      if(next%2 !==0){
+        sum +=next;
+      }
+    }
+    else break;
+  }
+  return sum;
+}
+
+sumFibs(4);
+</code></pre>
+<h3>Sum All Primes</h3>
+<p>Sum all the prime numbers up to and including the provided number. A prime number is defined as a number greater than one and having only two divisors, one and itself. For example, 2 is a prime number because it's only divisible by one and two. The provided number may not be a prime.</p>
+<pre><code class="language-js">//Sum the primes
+//Using the ancient Eratosthenes method
+
+function sumPrimes(num) {
+  
+  //Get the table
+  var table = [],
+      primes= [],
+      limit=Math.floor(Math.sqrt(num));
+  for(var a=2;a&#x3C;=num;a++) { table.push(a);}
+  
+  //Iterate over the table until the element is less than sqrt of num
+  //and Get rid of it's multiples
+  while(primes[primes.length-1]===undefined || primes[primes.length-1]&#x3C;=limit){
+    primes.push(table.shift());
+    table = table.filter(a=>a%primes[primes.length-1]!==0);
+    
+  }
+  primes = primes.concat(table);
+  return primes.reduce((a,b)=>a+b);
+}
+
+sumPrimes(10);
+</code></pre>
+<h3>Smallest Common Multiple</h3>
+<p>Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters. The range will be an array of two numbers that will not necessarily be in numerical order. e.g. for 1 and 3 - find the smallest common multiple of both 1 and 3 that is evenly divisible by all numbers between 1 and 3.</p>
+<pre><code class="language-js">//Smallest common multiple
+//Using table method from wikipedia
+
+//list of primes as much as you see it'll require
+// here it's below 30
+
+primeTable=[2,3,5,7,11,13,17,19,23,29]; 
+
+//get a list of range of numbers
+function range(list){
+ min=Math.min(list[0],list[1]);
+ max=Math.max(list[0],list[1]);
+ var r=[];
+ for(i=min;i&#x3C;=max;i++){
+   r.push(i);
+  }
+return r;
+}
+
+//is all the items are 1?
+function allOne(list){
+  return list.filter(a=>a!==1).length === 0;
+}
+
+//is any of the item divisible by the number?
+function isDivisible(list,num){
+  state = false;
+  list.forEach(a=> a%num===0?state=true:undefined);
+  return state;
+}
+
+//only divide those who are divisible
+function applyDiv(list,num){
+  return list.map(a=>a%num===0?a/num:a);
+}
+
+//find the smallest common multiple of the items
+//Implements the table algorithm
+function scm(list){
+  mul=[];
+  for(i=0;;){
+    if(allOne(list)) break;
+    else{ 
+         if(isDivisible(list,primeTable[i])){
+           mul.push(primeTable[i]);
+           list = applyDiv(list,primeTable[i]);
+         } 
+         else i++;
+        
+    }
+  }
+  return mul.reduce((a,b)=>a*b);
+}
+
+//FCC
+function smallestCommons(arr) {
+   
+  return scm(range(arr));
+}
+
+smallestCommons([1,5]);
+</code></pre>
+<h3>Finders Keepers</h3>
+<p>Create a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument).</p>
+<pre><code class="language-js">function findElement(arr, func) {
+  
+  for(var i=0,l=arr.length;i&#x3C;l;i++){
+    if(func(arr[i])) {return arr[i];}
+  }
+  return undefined;
+}
+
+findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+</code></pre>
+<h3>Drop it</h3>
+<p>Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true. The second argument, func, is a function you'll use to test the first elements of the array to decide if you should drop it or not. Return the rest of the array, otherwise return an empty array.</p>
+<pre><code class="language-js">function dropElements(arr, func) {
+  var narr = arr.slice();
+  for(var i=0,l=arr.length;i&#x3C;l;i++){
+    if(func(arr[i])){return narr;}
+    else {narr.shift();}
+  }
+  return [];
+}
+
+dropElements([1, 2, 3], function(n) {return n &#x3C; 3; });
+</code></pre>
+<h3>Steamroller</h3>
+<p>Flatten a nested array. You must account for varying levels of nesting.</p>
+<pre><code class="language-js">function steamrollArray(arr) {
+  var narr = [];
+  
+  function roller(ar){
+    if(Array.isArray(ar)){ ar.forEach(
+      function (a){
+        if(Array.isArray(a)){ roller(a);}
+        else narr.push(a);
+      }
+    );}
+    else narr.push(ar);
+  }
+  roller(arr);
+  return narr;
+}
+
+steamrollArray([1, [2], [3, [[4]]]]);
+</code></pre>
+<h3>Binary Agents</h3>
+<p>Return an English translated sentence of the passed binary string. The binary string will be space separated.</p>
+<pre><code class="language-js">function binaryAgent(str) {
+  var bin = str.split(' ');
+  var out = "";
+  
+  for(var i=0,l=bin.length;i&#x3C;l;i++){
+    out += String.fromCharCode(parseInt(bin[i],2));
+  }
+  
+  return out;
+}
+
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+</code></pre>
+<h3>Everything Be True</h3>
+<p>Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+Remember, you can access object properties through either dot notation or [] notation.</p>
+<pre><code class="language-js">function truthCheck(collection, pre) {
+  // Is everyone being true?
+  var state = true;
+  
+  for(var i=0,l=collection.length;i&#x3C;l;i++){
+    if(collection[i].hasOwnProperty(pre)){
+      if(collection[i][pre]===0 ||
+         collection[i][pre]===null ||
+         collection[i][pre]==="" ||
+         collection[i][pre]===undefined ||
+         Number.isNaN(collection[i][pre])
+        ) state = false;
+    }
+    else state = false;
+  }
+  return state;
+}
+
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+</code></pre>
+<h3>Arguments Optional</h3>
+<p>Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum. For example, addTogether(2, 3) should return 5, and addTogether(2) should return a function. Calling this returned function with a single argument will then return the sum: <code>var sumTwoAnd = addTogether(2);</code> <code>sumTwoAnd(3)</code> returns 5.</p>
+<p>If either argument isn't a valid number, return undefined.</p>
+<pre><code class="language-js">function addTogether() {
+  if(!arguments){return undefined;}
+  
+  for(var i=0,l=arguments.length;i&#x3C;l;i++){
+    if(!(typeof arguments[i] == "number")){return undefined;}
+  }
+  
+  if(arguments.length == 1){
+    
+    var a = arguments[0];
+    return function(val){
+      if(typeof val == "number") {return val+a;}
+      else {return undefined;}
+    };
+    
+  }
+  else if(arguments.length ==2){
+    return arguments[0]+arguments[1];
+  }
+  return false;
+}
+
+addTogether(2,3);
+</code></pre>
+<p>{% comment %}  </p>
+<h3>Validate US Telephone Numbers</h3>
+<pre><code class="language-js"></code></pre>
+<p>{% endcomment %} </p>
+<h3>Record Collection</h3>
+<p>You are given a JSON object representing a part of your musical album collection. Each album has several properties and a unique id number as its key. Not all albums have complete information.</p>
+<p>Write a function which takes an album's id (like 2548), a property prop (like "artist" or "tracks"), and a value (like "Addicted to Love") to modify the data in this collection. If prop isn't "tracks" and value isn't empty (""), update or set the value for that record album's property. Your function must always return the entire collection object.</p>
+<p>There are several rules for handling incomplete data: If prop is "tracks" but the album doesn't have a "tracks" property, create an empty array before adding the new value to the album's corresponding property.</p>
+<p>If prop is "tracks" and value isn't empty (""), push the value onto the end of the album's existing tracks array. If value is empty (""), delete the given prop property from the album.</p>
+<pre><code class="language-js">// Setup
+var collection = {
+    "2548": {
+      "album": "Slippery When Wet",
+      "artist": "Bon Jovi",
+      "tracks": [ 
+        "Let It Rock", 
+        "You Give Love a Bad Name" 
+      ]
+    },
+    "2468": {
+      "album": "1999",
+      "artist": "Prince",
+      "tracks": [ 
+        "1999", 
+        "Little Red Corvette" 
+      ]
+    },
+    "1245": {
+      "artist": "Robert Palmer",
+      "tracks": [ ]
+    },
+    "5439": {
+      "album": "ABBA Gold"
+    }
+};
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line
+function updateRecords(id, prop, value) {
+  
+  if (prop=="artist" &#x26;&#x26; collection[id][prop]===undefined){
+    collection[id].artist=value;
+    
+  }
+  
+  if (prop=="tracks"){
+    if(collection[id][prop]===undefined){
+    collection[id].tracks=[];
+    }
+    
+    if(value!==""){
+      collection[id].tracks.push(value);
+    }
+  }
+  
+  if (value===""){
+    if(prop=="tracks") { delete collection[id].tracks ;}
+    if(prop=="artist") { delete collection[id].artist ;}
+  }
+ 
+  return collection ;
+}
+
+// Alter values below to test your code
+updateRecords(5439, "artist", "ABBA");
+</code></pre>
+<p>{% comment %} </p>
+<h3>Symmetric Difference</h3>
+<h3>Exact Change</h3>
+<h3>Inventory Update</h3>
+<h3>No repeats please</h3>
+<h3>Make a Person</h3>
+<h3>Map the Debris</h3>
+<h3>Pairwise</h3>
+<p>{% endcomment %}</p></div></div><div class="footer"><p>©<!-- -->2018<!-- -->, <a href="/about">Raziur Rahman</a>. All rights reserved.</p><div class="social"><a href="https://twitter.com/instrumaniak" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/instrumaniak" target="_blank" rel="noopener noreferrer"></a><a href="https://codepen.io/instrumaniak/" target="_blank" rel="noopener noreferrer"></a><a href="https://www.deviantart.com/instrumaniak" target="_blank" rel="noopener noreferrer"></a><a href="https://www.linkedin.com/in/raziur/" target="_blank" rel="noopener noreferrer"></a><a href="/feed.xml" target="_blank" rel="noopener noreferrer"></a></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-javascript-workout-8a4","path":"/blog/javascript-workout/"};window.dataPath="770/path---blog-javascript-workout-8-a-4-b90-yDTpJk4WAZeF7qdJrUleM5P6bTg";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.2840828f9d14a8c59128.css","/app-dd9b10ac2d4be71e701e.js"],"component---src-templates-page-js":["/component---src-templates-page-js-a82a3e14fc1f3cc65f88.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-be991ea4e67d6e9d6b2b.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-b84eb34ecf5c15b5f3fe.js"],"component---src-pages-index-js":["/component---src-pages-index-js-f7bab589105ed009b116.js"]};/*]]>*/</script><script src="/webpack-runtime-d4276b283d376ae31d3d.js" async=""></script><script src="/app-dd9b10ac2d4be71e701e.js" async=""></script><script src="/component---src-templates-blog-post-js-be991ea4e67d6e9d6b2b.js" async=""></script></body></html>
