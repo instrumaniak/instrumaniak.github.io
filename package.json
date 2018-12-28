@@ -4,7 +4,9 @@
   "description": "instrumanak-blog using gatsby",
   "private": true,
   "scripts": {
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gh-pages -d public -b master"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
@@ -23,5 +25,8 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-alton": "^0.15.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
