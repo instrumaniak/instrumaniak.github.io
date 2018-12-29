@@ -3,6 +3,7 @@ layout: post
 title: Making of the track - Flow
 category: music-production
 tags: reaper
+blurb: How the music was produced & some thoughts behind this project.
 ---
 Flow is a little bluesy track where I recorded audio (acoustic guitar and electric bass) after a long time, previously last couple of years I worked only with synths and it was all midi based setup. The music production workflow gets a bit different when you work with both audio and midi. I used reaper and free VST plugins and sounds for this projects.
 <!--more-->

@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Filter/Search a table
+title: Filter/Search a data table
 category: coding
 tags: javascript projects
+blurb: This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table.
 ---
 
-This is a little project, I did to brush up my JavaScript and CSS coding skills. In this project you can interactively filter/search the data of a html table.
-<!--more-->
-
-The idea came from a w3school tutorial but I coded it from scratch and implemented some features that I think would make the user experience more fluid but that made the code a bit complex for me.
+The idea for this project came from a w3school tutorial but I coded it from scratch and implemented some features that I think would make the user experience more fluid but that made the code a bit complex for me.
 
 I thought I would be able to code it within an hour as I saw the basic code but it took me few days to implement the functionality and style that I was looking for.
 
