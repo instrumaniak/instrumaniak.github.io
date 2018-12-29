@@ -29,7 +29,7 @@ class NavBar extends Component {
         `}
         render={({site:{siteMetadata:{title}}}) => (
           <header className='navbar' style={{
-            marginBottom: '1.5rem',
+            marginBottom: '2.5rem',
             padding: '1rem'
           }}>
             <Link to='/'>

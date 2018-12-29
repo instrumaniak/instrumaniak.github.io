@@ -1,20 +1,28 @@
 // Styles for blog posts
 
+// post-card
 
-// blurb - post excerpt
+.post-card {
+  margin-bottom: 2.5rem;
 
-// common blurb style
-.blurb {
-
+  &__title {
+    margin-bottom: 0.5rem;
+    &-link {
+      //color: darkgray;
+    }
+  }
+  &__info {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: gray;
+  }
+  &__blurb {
+    //font-size: 0.95rem;
+  }
 }
 
 // used in post details page
 .blurb--post {
   border-left: 0.2rem solid lightgray;
   padding-left: 0.5rem;
-}
-
-// used in home page
-.blurb--page {
-
 }

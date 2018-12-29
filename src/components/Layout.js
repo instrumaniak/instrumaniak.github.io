@@ -5,18 +5,19 @@ import Footer from './Footer'
 class Layout extends Component {
   render() {
     return (
-      <Fragment>
+      <div style={{
+        maxWidth: 700,
+        marginLeft: 'auto',
+        marginRight: 'auto'
+      }}>
         <NavBar />
         <div style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: 650,
           padding: '0 1rem'
         }}>
           { this.props.children }
         </div>
         <Footer />
-      </Fragment>
+      </div>
     )
   }
 }

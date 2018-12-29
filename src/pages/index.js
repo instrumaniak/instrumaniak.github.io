@@ -18,10 +18,16 @@ export default ({ data:{
         const { slug, date } = post.fields
 
         return (
-          <div key={id}>
-            <h3><Link to={slug}>{title}</Link></h3>
-            <p><small>{ date } &bull; {category} &bull; Tags: {tags.split(' ').join(', ')}</small></p>
-            <p className='blurb blurb--page'>{ blurb }</p>
+          <div className='post-card' key={id}>
+            <h2 className='post-card__title'>
+              <Link className='post-card__title-link' to={slug}>
+                {title}
+              </Link>
+            </h2>
+            <div className='post-card__info'>
+              { date } &bull; {category} &bull; Tags: {tags.split(' ').join(', ')}
+            </div>
+            <div className='post-card__blurb'>{ blurb }</div>
           </div>
         )
       })
