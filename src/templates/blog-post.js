@@ -13,6 +13,8 @@ export default ({ data }) => {
     <Layout>
       <h1>{post.frontmatter.title}</h1>
       <p>{post.fields.date}</p>
+      <p className='blurb blurb--post'><em>{post.frontmatter.blurb}</em></p>
+
       <div dangerouslySetInnerHTML={{__html:post.html}}></div>
     </Layout>
   )
@@ -24,6 +26,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        blurb
       }
       fields {
         date
