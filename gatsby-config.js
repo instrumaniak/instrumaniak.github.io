@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'instrumaniak',
     description: 'A blog & personal site of Raziur Rahman',
+    author: 'Raziur Rahman',
     site_build_date: `${new Date().toDateString()}`
   },
   plugins: [
@@ -27,6 +28,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-catch-links'
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-react-helmet'
   ]
 }
