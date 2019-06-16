@@ -36,6 +36,12 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-88798521-1"
+      }
+    }
   ]
 }
