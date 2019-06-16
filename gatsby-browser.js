@@ -3,6 +3,7 @@
  */
 
 // import global styles
+import 'prismjs/themes/prism.css'
 import './src/styles/index.scss'
 
 // Enable required subset of font-awesome icons
