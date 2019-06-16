@@ -3,6 +3,7 @@ module.exports = {
     title: 'instrumaniak',
     description: 'A blog & personal site of Raziur Rahman',
     author: 'Raziur Rahman',
+    siteUrl: 'https://instrumaniak.github.io',
     site_build_date: `${new Date().toDateString()}`
   },
   plugins: [
@@ -37,6 +38,8 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
+    //'gatsby-plugin-feed',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
