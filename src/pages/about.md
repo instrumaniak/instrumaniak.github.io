@@ -12,10 +12,6 @@ In this blog/personal site I will be sharing my thoughts, experience and experim
 
 ![Raziur Rahman photo](/images/about/razi-outdoor.jpg)
 
-<hr>
 
 ## About this site
 This site is built using gatsby. Read more about it from [here]().
-
-<hr>
-

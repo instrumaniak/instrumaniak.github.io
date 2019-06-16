@@ -19,7 +19,6 @@ Music, sound works and cover art by Raziur Rahman. This track is made using Reap
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=942002446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://raziurrahman.bandcamp.com/track/flow">Flow by Raziur Rahman</a></iframe>
 
 <br/>
-<hr>
 
 
 ## Carbon (2015)
@@ -35,7 +34,7 @@ Music programming, sound works and cover art by Raziur Rahman. This track is mad
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2730672239/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://raziurrahman.bandcamp.com/track/carbon">Carbon by Raziur Rahman</a></iframe>
 
 <br/>
-<hr>
+
 
 ## instrumania (2014)
 
@@ -50,7 +49,7 @@ Music composed, produced and Cover art by Raziur Rahman. You can read about the 
 <iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=4064667473/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://raziurrahman.bandcamp.com/album/instrumania">instrumania by Raziur Rahman</a></iframe>
 
 <br/>
-<hr>
+
 
 ## Ethanol (2011)
 
@@ -62,7 +61,7 @@ Genre: *Electronic, Progressive Rock*
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168474522&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
 
 <br/>
-<hr>
+
 
 ## Hope (2009)
 
@@ -73,4 +72,3 @@ Genre: *Electronic, World, Ethnic*
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168472633&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
 
 <br/>
-<hr>

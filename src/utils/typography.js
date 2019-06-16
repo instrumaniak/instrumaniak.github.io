@@ -7,6 +7,9 @@ altonTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
   'a:hover': {
     color: 'darkturquoise'
+  },
+  'hr': {
+    background: '#eee'
   }
 })
 
