@@ -3,7 +3,13 @@
  *  Default theme: modifications
  */
 
+// codeblock background
 pre[class*="language-"] {
   background-color: #f9f9f9;
   margin-bottom: 1rem;
+}
+
+// code text default color
+code[class*="language-"] {
+  color: #333;
 }

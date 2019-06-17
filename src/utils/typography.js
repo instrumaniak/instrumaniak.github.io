@@ -2,11 +2,14 @@ import Typography from 'typography'
 import altonTheme from 'typography-theme-alton'
 
 altonTheme.overrideThemeStyles = ({ rhythm }, options) => ({
+  body: {
+    color: '#333'
+  },
   a: {
-    color: 'cornflowerblue'
+    color: '#5f6f8c'
   },
   'a:hover': {
-    color: 'darkturquoise'
+    color: 'steelblue'
   },
   'hr': {
     background: '#eee'
