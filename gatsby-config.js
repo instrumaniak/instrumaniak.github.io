@@ -38,7 +38,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
-    //'gatsby-plugin-feed',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-google-analytics',

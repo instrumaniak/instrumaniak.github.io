@@ -40,9 +40,9 @@ class Footer extends Component {
           <a href='https://www.linkedin.com/in/raziur/' target='_blank' rel='noopener noreferrer'>
             <Fa icon={['fab', 'linkedin']} />
           </a>
-          <a href='/feed.xml' target='_blank' rel='noopener noreferrer'>
+          {/*<a href='/feed.xml' target='_blank' rel='noopener noreferrer'>
             <Fa icon='rss' />
-          </a>
+          </a>*/}
         </div>
       </div>
         )

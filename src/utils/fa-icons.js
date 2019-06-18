@@ -4,7 +4,7 @@
  */
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faRss } from '@fortawesome/free-solid-svg-icons'
+//import { faRss } from '@fortawesome/free-solid-svg-icons'
 import {
   faTwitter,
   faGithubAlt,
@@ -21,7 +21,7 @@ import {
 class FaIcons {
   static init() {
     library.add(
-      faRss,
+      //faRss,
       faTwitter,
       faGithubAlt,
       faCodepen,
