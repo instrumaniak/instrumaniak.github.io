@@ -8,11 +8,5 @@ Here are some selected artworks of mine. These are all digital works. Other work
 
 ![Puppy](/images/artworks/puppy.jpg)
 
-![Selfie](/images/artworks/selfie.jpg)
-
-![Strange Creature](/images/artworks/creature.jpg)
-
 ![Panda](/images/artworks/panda.jpg)
-
-![Sad little girl](/images/artworks/sadgirl.jpg)
 
