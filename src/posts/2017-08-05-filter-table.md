@@ -13,18 +13,23 @@ I thought I would be able to code it within an hour as I saw the basic code but 
 So I realized that a project becomes quickly difficult and complex when you try to be creative or solve real world problems. You can read tutorial after tutorial, watch many videos and do lots of coding exercises but it's the projects- where you really learn the material by actually doing things and building stuffs!
 
 ## Problem statement
+
 Search text interactively inside of a html table, that is, Filter out unmatched data from a html table that does not match the given input. Using only vanilla HTML/CSS/JS.
 
 ## User stories
+
 The features we are going to implement:
 
 1. I can filter the data by writing in the text box
-  - I can choose a column to filter.
-  - I can choose filtering to be *case sensitive*.
-  - The filtering process is *interactive*, it happens as I type.
+
+- I can choose a column to filter.
+- I can choose filtering to be _case sensitive_.
+- The filtering process is _interactive_, it happens as I type.
+
 2. I can clear text input.
-  - By a clear *button*.
-  - By pressing Esc *key*.
+
+- By a clear _button_.
+- By pressing Esc _key_.
 
 ## HTML
 
@@ -32,29 +37,26 @@ The user input section:
 
 ```html
 <div class="toolbox">
-  
-  <input type="text" id="inpValue" placeholder="Type here to filter the table below by name or country.." />
+  <input
+    type="text"
+    id="inpValue"
+    placeholder="Type here to filter the table below by name or country.."
+  />
 
   <div class="control-panel">
+    <label><input id="rbName" type="radio" name="radios" checked /> Name</label>
 
-    <label><input id="rbName" type="radio" name="radios" checked/>
-    Name</label>
+    <label><input id="rbCountry" type="radio" name="radios" /> Country</label>
 
-    <label><input id="rbCountry" type="radio" name="radios" />
-    Country</label>
-
-    <label><input id="cbCaseSns" type="checkbox" />
-    Case sensitive</label>
+    <label><input id="cbCaseSns" type="checkbox" /> Case sensitive</label>
 
     <button id="btnClear">Clear</button>
 
     <div class="info-panel">
       <p>Tip: use ESC key to quickly clear text box.</p>
     </div>
-
   </div>
 </div>
-
 ```
 
 The data table:
@@ -76,9 +78,7 @@ The data table:
       <td>Tianhe-2 (MilkyWay-2)</td>
       <td>China</td>
     </tr>
-    .
-    .
-    .
+    . . .
   </tbody>
 </table>
 ```
@@ -91,7 +91,7 @@ body {
   max-width: 600px;
   position: relative;
   margin: 0 auto;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
 }
 
 .wrap {
@@ -154,7 +154,6 @@ tr th:first-child {
 td {
   padding: 5px;
 }
-
 ```
 
 ## JavaScript
@@ -171,39 +170,36 @@ var cbCaseSns = document.getElementById("cbCaseSns");
 var tblRows = document.getElementsByTagName("tr");
 
 // Button-onclick: Clear
-btnClear.addEventListener("click", function(){
+btnClear.addEventListener("click", function() {
   inpValue.value = "";
   filterTable();
-})
+});
 
 // Checkbox-onclick: Case sensitive
-cbCaseSns.addEventListener("click",function (){
+cbCaseSns.addEventListener("click", function() {
   filterTable();
 });
 
 // radio-name-onclick
-rbName.addEventListener("click",function (){
+rbName.addEventListener("click", function() {
   filterTable();
 });
 
 // radio-country-onclick
-rbCountry.addEventListener("click",function (){
+rbCountry.addEventListener("click", function() {
   filterTable();
 });
 
 // Inputbox-onkeyup
-inpValue.addEventListener("keyup", function(e){
-
-  if (e.key === "Escape"){
+inpValue.addEventListener("keyup", function(e) {
+  if (e.key === "Escape") {
     inpValue.value = "";
   }
 
   filterTable();
 });
 
-
-function filterTable(){
-  
+function filterTable() {
   // Handle case sensitive
   var caseSn = cbCaseSns.checked ? "" : "i";
   var pattern = new RegExp(inpValue.value, caseSn);
@@ -212,27 +208,25 @@ function filterTable(){
   var tdNum = rbName.checked ? 0 : 1;
 
   // Iterate over rows and filter
-  for(var i =0,l=tblRows.length;i<l;i++){
-    
-    var td = tblRows[i].getElementsByTagName('td')[tdNum];
-    if(td){
-      if(td.innerHTML.search(pattern) > -1 ){
+  for (var i = 0, l = tblRows.length; i < l; i++) {
+    var td = tblRows[i].getElementsByTagName("td")[tdNum];
+    if (td) {
+      if (td.innerHTML.search(pattern) > -1) {
         tblRows[i].style.display = "";
-      }
-      else {
+      } else {
         tblRows[i].style.display = "none";
       }
     }
   }
 }
-
 ```
 
 ## Result
 
-<p data-height="681" data-theme-id="light" data-slug-hash="QMLJyd" data-default-tab="result" data-user="instrumaniak" data-embed-version="2" data-pen-title="Filter table data" class="codepen">See the Pen <a href="https://codepen.io/instrumaniak/pen/QMLJyd/">Filter table data</a> by Raziur Rahman (<a href="https://codepen.io/instrumaniak">@instrumaniak</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+<iframe height="400" style="width: 100%;" scrolling="no" title="Filter table data | Vanilla JS" src="https://codepen.io/instrumaniak/embed/QMLJyd?height=400&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/instrumaniak/pen/QMLJyd'>Filter table data | Vanilla JS</a> by Raziur Rahman
+  (<a href='https://codepen.io/instrumaniak'>@instrumaniak</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Links
 
