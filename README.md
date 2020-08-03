@@ -2,4 +2,4 @@
 
 currently: https://instrumaniak.github.io
 
-Ported from *jekyll* to *gatsbyjs*.
+Ported my blog from _jekyll_ to _gatsbyjs_.
