@@ -10,7 +10,9 @@ import {
   faGithubAlt,
   faCodepen,
   faDeviantart,
-  faLinkedin
+  faLinkedin,
+  faSoundcloud,
+  faBandcamp
 } from '@fortawesome/free-brands-svg-icons'
 
 /**
@@ -26,7 +28,9 @@ class FaIcons {
       faGithubAlt,
       faCodepen,
       faDeviantart,
-      faLinkedin
+      faLinkedin,
+      faSoundcloud,
+      faBandcamp
     )
   }
 }

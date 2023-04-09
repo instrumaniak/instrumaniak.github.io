@@ -28,6 +28,9 @@ class Footer extends Component {
           <a href='https://twitter.com/instrumaniak' target='_blank' rel='noopener noreferrer'>
             <Fa icon={['fab', 'twitter' ]} />
           </a>
+          <a href='https://www.linkedin.com/in/raziur/' target='_blank' rel='noopener noreferrer'>
+            <Fa icon={['fab', 'linkedin']} />
+          </a>
           <a href='https://github.com/instrumaniak' target='_blank' rel='noopener noreferrer'>
             <Fa icon={['fab', 'github-alt']} />
           </a>
@@ -37,8 +40,11 @@ class Footer extends Component {
           <a href='https://www.deviantart.com/instrumaniak' target='_blank' rel='noopener noreferrer'>
             <Fa icon={['fab', 'deviantart']} />
           </a>
-          <a href='https://www.linkedin.com/in/raziur/' target='_blank' rel='noopener noreferrer'>
-            <Fa icon={['fab', 'linkedin']} />
+          <a href='https://soundcloud.com/instrumaniak' target='_blank' rel='noopener noreferrer'>
+            <Fa icon={['fab', 'soundcloud']} />
+          </a>
+          <a href='https://raziurrahman.bandcamp.com/' target='_blank' rel='noopener noreferrer'>
+            <Fa icon={['fab', 'bandcamp']} />
           </a>
           {/*<a href='/feed.xml' target='_blank' rel='noopener noreferrer'>
             <Fa icon='rss' />

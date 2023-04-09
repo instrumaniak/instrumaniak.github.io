@@ -29,6 +29,7 @@ class NavBar extends Component {
         `}
         render={({site:{siteMetadata:{title}}}) => (
           <header className='navbar' style={{
+            marginTop: '1rem',
             marginBottom: '2.5rem',
             padding: '1rem'
           }}>
@@ -40,7 +41,7 @@ class NavBar extends Component {
               float: 'right'
             }}>
               <ListLink to='/music'>Music</ListLink>
-              <ListLink to='/arts'>Arts</ListLink>
+              {/* <ListLink to='/arts'>Arts</ListLink> */}
               <ListLink to='/about'>About</ListLink>
             </ul>
           </header>
