@@ -4,13 +4,11 @@ title: About
 pageorder: 10
 ---
 
-Hi! This is Raziur Rahman. I am from Dhaka, Bangladesh. I have a wide range of interests it goes from coding, electronics, music production, digital art to writing and more...! I studied Electrical and Electronic Engineering (B.Sc, 2009) from Ahsanullah University of Science and Technology, Dhaka.
-
-Currently I am working as a web developer here in Dhaka. Mostly coding in JavaScript (React & Node.js).
+Hi! This is Raziur Rahman. I am from Dhaka, Bangladesh. I studied Electrical and Electronic Engineering (B.Sc, 2009) from Ahsanullah University of Science and Technology, Dhaka. Currently working as a web developer, mostly coding in JavaScript (React & Node.js).
 
 In this blog/personal site I will be sharing my thoughts, experience and experiments about things that I find interesting or worth sharing!
 
-![Raziur Rahman photo](/images/about/profile-pic-2020.jpg)
+![Raziur Rahman photo](/images/about/20220416_202637.jpg)
 
 ## About this site
 

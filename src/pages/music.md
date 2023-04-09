@@ -4,8 +4,10 @@ title: Music
 pageorder: 01
 ---
 
+<small>Featured works:</small>
 <hr>
 
+<!-- 
 ## Flow (2017)
 
 Single track, released September 30, 2017.
@@ -19,6 +21,7 @@ Music, sound works and cover art by Raziur Rahman. This track is made using Reap
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=942002446/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://raziurrahman.bandcamp.com/track/flow">Flow by Raziur Rahman</a></iframe>
 
 <br/>
+-->
 
 
 ## Carbon (2015)
@@ -38,7 +41,7 @@ Music programming, sound works and cover art by Raziur Rahman. This track is mad
 
 ## instrumania (2014)
 
-11 track album, released August 14, 2014. 
+Album, 11 tracks, released August 14, 2014. 
 
 Genre: *instrumental, progressive, electronic*
 
@@ -50,7 +53,7 @@ Music composed, produced and Cover art by Raziur Rahman. You can read about the 
 
 <br/>
 
-
+<!-- 
 ## Ethanol (2011)
 
 Made during 2011 using FL Studio. During this time I was learning and experimenting with mixing and mastering techniques.
@@ -71,4 +74,4 @@ Genre: *Electronic, World, Ethnic*
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168472633&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
 
-<br/>
+<br/> -->
